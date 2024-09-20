@@ -1,35 +1,39 @@
-<!doctype html>
-	<html>
-		<head>
-			<title> Test page </title>
-			<style>
-				body, html {
-					margin: 0;
-					padding: 0;
-				}
-				svg {
-					width: 100%;
-					height: 300px;
-					display: block;
-				}
-			</style>
-		</head>
-		<body>
-		
-		<!-- Background rectangle to cover the banner -->
-        <rect width="1200" height="300" fill="#87CEEB" />
-
-        <!-- A circle element at the center -->
-        <circle cx="600" cy="150" r="80" fill="#FFD700" />
-
-        <!-- A polygon resembling a triangle on the left side -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Banner Example</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        svg {
+            width: 100%;
+            height: 300px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- SVG Banner with circle, rectangle, and polygon -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+        
+        <!-- Full-width background rectangle -->
+        <rect x="0" y="0" width="1200" height="300" fill="#ADD8E6" />
+        
+        <!-- A circle at the center of the banner -->
+        <circle cx="600" cy="150" r="70" fill="#FFD700" />
+        
+        <!-- A polygon that forms a triangle -->
         <polygon points="100,100 200,150 100,200" fill="#FF4500" />
-
-        <!-- Another rectangle to add visual effect -->
-        <rect x="850" y="100" width="200" height="100" fill="#4682B4" />
-			<h1> This is a heading. </h1>
-			<p> This is basic text. </p>
-			
-		</body>
-	</html>
+        
+        <!-- Another rectangle to add style to the right side -->
+        <rect x="900" y="100" width="150" height="100" fill="#4682B4" />
+        
+    </svg>
+</body>
+</html>
 
