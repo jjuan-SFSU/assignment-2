@@ -48,7 +48,7 @@
 				fill="#FFD700" />
 			
 			<polygon 
-				points="100,100 200,200 100,300 100,200" 
+				points="700,100 850,200 700,300 550,200" 
 				fill="#FFFFFF" />
 			
 		</svg>
@@ -63,26 +63,51 @@
 		
 		<h1>Assignment 2</h1>
 		
-		<h2 class="css-question">How to Apply CSS to HTML:</h2>
+		<h2 class="css-question">How to Apply CSS to HTML</h2>
 		<p class="css-question">Use of an external CSS stylesheet is permitted using a <code>&lt;link&gt;</code> element
 		with an <code>href</code> attribute; however, the file must be within the directory. An example is:
 		
 		<pre>
-			&lt;link rel="stylesheet" href="styles.css"/&gt;
+	&lt;link rel="stylesheet" href="styles.css"/&gt;
 			
-			The contents of styles.css could include: 
+	The contents of styles.css could include: 
 			
-			p {
-				color: white;
-				background-color: gray;
-				border: 1px solid black;
-				padding: 5px
-			}
+	p {
+		color: white;
+		background-color: gray;
+		border: 1px solid black;
+		padding: 5px
+	}
 		</pre>
 		</p>
 		
-		<h2 class="js-question">How to Use JavaScript in a Webpage:</h2>
-		<p class="js-question"></p>
+		<h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+		<p class="js-question">
+		
+		<ul>
+			<li>Linking an external JavaScript file:</li>
+			<p>
+				Similar to CSS, a JavaScript file can be written in its own <code>.js</code> file and can be executed using <code>&lt;script&gt;</code> with a
+				<code>src</code> attribute pointing to the script file.
+			<pre>
+	&lt;script src="path/to/my/script.js"&gt; &lt;/script/&gt;
+			</pre>
+				
+			</p>
+			<li>Writing JavaScript within an <code>html</code> file:</li>
+			<p>
+				  JavaScript code can be added between the <code>&lt;script&gt;</code> tags instead of using a <code>src</code> attribute.
+			<pre>
+	&lt;script&gt; 
+		window.addEventListener("load", () => {
+		  console.log("This function is executed once the page is fully loaded");
+		});
+	&lt;/script/&gt;
+			</pre>
+			</p>
+		</ul>
+		
+		</p>
 		
 	</body>
 </html>
