@@ -1,8 +1,8 @@
 <svg viewBox="0 0 200 100"
     version="1.1"
      xmlns="http://www.w3.org/2000/svg">
-  <path fill="none" stroke="lightgrey" d="50,50 150,50 150,150 50,150" z/>
+  <path fill="none" stroke="lightgrey" d="M50,50 150,50 150,150 50,150 z"/>
   <circle r="5" fill="red">
-    <animateMotion dur="20s" repeatCount="indefinite" path="50,50 150,50 150,150 50,150" z"/>
+    <animateMotion dur="20s" repeatCount="indefinite" path="M50,50 150,50 150,150 50,150 z"/>
   </circle>
 </svg>
