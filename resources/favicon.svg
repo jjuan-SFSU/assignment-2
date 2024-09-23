@@ -16,15 +16,15 @@
 		fill="#FFFFFF" />
 		
 	<circle 
-		cx="35" 
+		cx="30" 
 		cy="35" 
-		r="10" 
+		r="15" 
 		fill="#000000" />
 		
 	<circle 
-		cx="65" 
-		cy="25" 
-		r="10" 
+		cx="70" 
+		cy="35" 
+		r="15" 
 		fill="#000000" />
 	
 </svg>
